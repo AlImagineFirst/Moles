@@ -36,42 +36,42 @@ jQuery(function($) {
         thumbnail_navigation: 0, // Thumbnail navigation
         slides: [{
             image: "img/001.jpg",
-            thumb: "http://www.napatrufflefestival.com/wp-content/uploads/2015/10/napa-truffle-heroes_chefs-150x150.jpg",
+            thumb: "img/001.jpg",
             url: "",
             title: ""
         }, {
             image: "img/002.jpg",
-            thumb: "http://www.napatrufflefestival.com/wp-content/uploads/2015/10/napa-truffle-heroes_dish-150x150.jpg",
+            thumb: "img/002.jpg",
             url: "",
             title: ""
         }, {
             image: "img/003.jpg",
-            thumb: "http://www.napatrufflefestival.com/wp-content/uploads/2017/07/napa-truffle-heroes_tix1-150x150.jpg",
+            thumb: "img/003.jpg",
             url: "",
             title: ""
         }, {
             image: "img/004.jpg",
-            thumb: "http://www.napatrufflefestival.com/wp-content/uploads/2017/07/napa-truffle-heroes_tix2-150x150.jpg",
+            thumb: "img/004.jpg",
             url: "",
             title: ""
         }, {
             image: "img/005.jpg",
-            thumb: "http://www.napatrufflefestival.com/wp-content/uploads/2013/06/napa-truffle-hero-01-a-150x150.jpg",
+            thumb: "img/0015.jpg",
             url: "",
             title: ""
         }, {
             image: "img/006.jpg",
-            thumb: "http://www.napatrufflefestival.com/wp-content/uploads/2013/06/napa-truffle-hero-02-a-150x150.jpg",
+            thumb: "img/006.jpg",
             url: "",
             title: ""
         }, {
             image: "img/007.jpg",
-            thumb: "http://www.napatrufflefestival.com/wp-content/uploads/2017/07/napa-truffle-heroes_tix3-150x150.jpg",
+            thumb: "img/007.jpg",
             url: "",
             title: ""
         }, {
             image: "img/008.jpg",
-            thumb: "http://www.napatrufflefestival.com/wp-content/uploads/2017/07/napa-truffle-heroes_tix4-150x150.jpg",
+            thumb: "img/008.jpg",
             url: "",
             title: ""
         }],
