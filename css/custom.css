@@ -1,3 +1,7 @@
+.innerHeader{
+    color: #F36524;
+}
+
 .bk-fixed-header-left #bk-logo-wrap {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -51,6 +55,7 @@ h3 {
     font-family: "Julius Sans One";
     font-weight: 400;
     font-size: 22px;
+    color: #F36524;
 }
 h4 {
     font-family: "Julius Sans One";
@@ -110,6 +115,7 @@ h1.page-entry-title {
     font-family: "Julius Sans One";
     font-weight: 400;
     font-size: 31px;
+    color: #F36524;
 }
 div.bk-portfolio-title-wrap h1.bk-portfolio-title {
     font-family: "Julius Sans One";
@@ -150,7 +156,7 @@ body {
 body,
 input[type="text"],
 inpup[type="password"] textarea {
-    color: #F36524;
+    color: #191917;
 }
 body a {
     color: #7f693d;
@@ -175,7 +181,7 @@ body a:hover {
 .single-portfolio .bk-fixed-page article.fullwidth_meta_bottom div.bk-portfolio-content-wrap {
     background-position: center;
     background-repeat: repeat;
-    background-color: #191917;
+    background-color: #fff;
     background-attachment: scroll;
 }
 h3.widget-title span,
