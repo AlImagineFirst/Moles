@@ -464,6 +464,40 @@ div.bk-toggle div.bk-toggle-header {
     color: #ba861f;
 }
 
+.countDownDiv{
+	width: 20%;
+	float:left;
+	text-align: center;
+	color:#F36524;
+    display:block;
+    font-family:Julius Sans One;
+	
+}
+
+.countDownContent{
+	
+	display: inline-flex;
+	border-radius: 5px;
+	width:105%
+}
+
+.countDownTime{
+	margin-top:15px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.countDownLabel{
+	margin-top:-10px;
+	font-size: 13px;
+}
+
+.countDownTitle{
+    color:#F36524;
+    text-align: center;
+	font-family:Julius Sans One;
+}
+
 #bk-content-inner-wrap{max-width:473px;}
 @media only screen and (max-width: 533px) {#bk-content-inner-wrap{margin:0px !important; max-width: none;}}
 @media only screen and (max-width: 813px) {.bk-fixed-header-left #bk-content-inner-wrap{margin:0px !important; max-width: none;}}

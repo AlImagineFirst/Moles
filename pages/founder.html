@@ -35,6 +35,9 @@
       <script type='text/javascript' src='../js/ui/supersized.3.2.7.min.js'></script>
       <script type='text/javascript' src='../js/ui/supersized.shutter.min.js'></script>
       <script type='text/javascript' src='../js/carrouselInner.js'></script>
+	  <script type='text/javascript' src='../js/ui/jquery.countdown.js'></script>
+	  <script type='text/javascript' src='../js/ui/jquery.countdown.min.js'></script>
+	  
       <!-- End Scripts -->
       <!-- Fonts -->
       <link href="../lib/fonts/openSans.css" rel="stylesheet" type="text/css">
@@ -50,9 +53,9 @@
             <div id="bk-header-inner-wrap" class="clearfix">
                <div id="bk-header-social-wrapper">
                   <ul class="bk-social-icons">
-                     <li data-label="facebook"><a class="bk-social-icon facebook" title="facebook" target="_blank" href="http://www.facebook.com/NapaTruffleFestival"></a></li>
-                     <li data-label="twitter"><a class="bk-social-icon twitter" title="twitter" target="_blank" href="http://www.twitter.com/napatrufflefest"></a></li>
-                     <li data-label="instagram"><a class="bk-social-icon aim" title="instagram" target="_blank" href="http://instagram.com/napatrufflefest"></a></li>
+                     <li data-label="facebook"><a class="bk-social-icon facebook" title="facebook" target="_blank" href="https://www.facebook.com/FeriaDeLosMoles"></a></li>
+                     <li data-label="twitter"><a class="bk-social-icon twitter" title="twitter" target="_blank" href="https://twitter.com/feriadelosmoles"></a></li>
+                     <li data-label="instagram"><a class="bk-social-icon aim" title="instagram" target="_blank" href="https://www.instagram.com/laferiadelosmoles/"></a></li>
                   </ul>
                </div>
                <div id="bk-logo-wrap">
@@ -82,15 +85,18 @@
                            <a class="bk-menu-item-anchor" href="chefs.html">Chefs</a>
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page bk-sub-menu-item">
-                           <a class="bk-menu-item-anchor" href="events.html">Events</a>
-                           <ul class="sub-menu bk-sub-menu">
+                           <a class="bk-menu-item-anchor" href="events.html">Eventos</a>
+						   <ul class="sub-menu bk-sub-menu">
                                <li id="menu-item-2188" class="menu-item menu-item-type-post_type menu-item-object-page bk-sub-menu-item">
+                                  <a class="bk-menu-item-anchor" href="events.html">La Feria del Mole</a>
+                               </li>
+							   <li id="menu-item-2188" class="menu-item menu-item-type-post_type menu-item-object-page bk-sub-menu-item">
                                   <a class="bk-menu-item-anchor"  href="gallery.html">Gallery</a>
                                </li>
                             </ul>
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page bk-sub-menu-item">
-                           <a class="bk-menu-item-anchor" href="sponsors.html">Contact</a>
+                           <a class="bk-menu-item-anchor" href="contact.html">Contact</a>
                         </li>
                      </ul>
                   </div>
@@ -113,21 +119,28 @@
                            <a class="bk-menu-item-anchor" href="chefs.html">Chefs</a>
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page bk-sub-menu-item">
-                           <a class="bk-menu-item-anchor" href="events.html">Events</a>
-                           <ul class="sub-menu bk-sub-menu">
+                           <a class="bk-menu-item-anchor" href="events.html">Eventos</a>
+						   <ul class="sub-menu bk-sub-menu">
                                <li id="menu-item-2188" class="menu-item menu-item-type-post_type menu-item-object-page bk-sub-menu-item">
+                                  <a class="bk-menu-item-anchor" href="events.html">La Feria del Mole</a>
+                               </li>
+							   <li id="menu-item-2188" class="menu-item menu-item-type-post_type menu-item-object-page bk-sub-menu-item">
                                   <a class="bk-menu-item-anchor"  href="gallery.html">Gallery</a>
                                </li>
                             </ul>
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page bk-sub-menu-item">
-                           <a class="bk-menu-item-anchor" href="sponsors.html">Contact</a>
+                           <a class="bk-menu-item-anchor" href="contact.html">Contact</a>
                         </li>
                      </ul>
                   </div>
                </nav>
                <div id="bk-header-tagline" class="clearfix">
                   <div id="bk-header-tagline-content-wrap">
+                     <div class="countDownTitle">
+                        <strong>The event will start in</strong>
+                     </div>
+                     <div id="countDownEvent"></div>            
                      <div class="formwrap">
                         <div class="formhead">
                            <strong>Sign up for festival info:</strong>
@@ -152,9 +165,9 @@
                </div>
                <div id="bk-responsive-header-social-wrapper">
                   <ul class="bk-social-icons">
-                     <li data-label="facebook"><a class="bk-social-icon facebook" title="facebook" target="_blank" href="http://www.facebook.com/"></a></li>
-                     <li data-label="twitter"><a class="bk-social-icon twitter" title="twitter" target="_blank" href="http://www.twitter.com/"></a></li>
-                     <li data-label="instagram"><a class="bk-social-icon aim" title="instagram" target="_blank" href="http://instagram.com/"></a></li>
+                     <li data-label="facebook"><a class="bk-social-icon facebook" title="facebook" target="_blank" href="https://www.facebook.com/FeriaDeLosMoles"></a></li>
+                     <li data-label="twitter"><a class="bk-social-icon twitter" title="twitter" target="_blank" href="https://twitter.com/feriadelosmoles"></a></li>
+                     <li data-label="instagram"><a class="bk-social-icon aim" title="instagram" target="_blank" href="https://www.instagram.com/laferiadelosmoles/"></a></li>
                   </ul>
                </div>
             </div>
